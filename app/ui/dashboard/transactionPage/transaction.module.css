@@ -1,0 +1,127 @@
+.container{
+    margin-top: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.mainGraphics{
+    display: flex;
+    gap: 1.25rem;
+}
+
+.circleGraphic{
+    flex: 1;
+}
+
+.barGraphic{
+    flex: 3;
+}
+
+.secondGraphics{
+    display: flex;
+    gap: 1.25rem;
+}
+
+.ingresoPromedio{
+    flex: 1; 
+}
+
+.ventas{
+    flex: 3;
+}
+
+.containerTable{
+    background-color: var(--bgSoft);
+    padding: 1.25rem;
+    border-radius: 0.825rem;
+    
+  }
+  
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;     
+}
+
+.addButton{
+    padding: 0.825rem;
+    background-color: #5d57c9;
+    color: var(--text);
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.table{
+    width: 100%;    
+}
+
+.table td{
+    padding: 0.825rem;  
+}
+
+.product{
+    display: flex;
+    align-items: center;
+    gap: 0.825rem;
+}
+
+.productImage{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.buttons{
+    display: flex;
+    gap: 0.825rem;
+}
+
+.button{
+    padding: 0.25rem 0.825rem;
+    border-radius: 0.25rem;
+    color: var(--text);
+    border: none;
+    cursor: pointer;
+}
+
+.view{
+    background-color: teal;
+}
+
+.delete{
+    background-color: crimson;
+}
+
+.tableId{
+    width: 12%;
+}
+
+.tableCliente{
+    width: 18%;
+}
+
+.tableFecha{
+    width: 12%;    
+}
+
+.tableDetalle{
+    width: 18%;
+}
+
+.tableStatus{
+    width: 12%;
+}
+
+.tableMonto{
+    width: 12%;
+}
+
+
+.tableAction{
+    width: 18%;
+}
+
+.pagado{
+    color: #14c93b;
+}

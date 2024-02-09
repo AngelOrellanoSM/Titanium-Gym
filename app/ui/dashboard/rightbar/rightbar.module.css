@@ -1,0 +1,13 @@
+.container {
+    position: sticky;
+    top: 1rem;
+    width: 22.5rem;
+    height: 50rem;
+    
+  }
+  
+  .bg {
+    height: 500rem;
+    width: 150rem;
+  }
+  

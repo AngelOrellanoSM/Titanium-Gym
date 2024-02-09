@@ -1,0 +1,78 @@
+.container{
+    height: 30rem;
+    background-color: var(--bgSoft);
+    border-radius: 0.825rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.825rem;
+    padding: 1.25rem;
+}
+
+.container h2{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--textSoft);
+}
+
+.subTitulo{
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.825rem;
+}
+.Total{
+    flex: 1;
+    font-size: 1.825rem;
+    align-self: center;
+}
+.leyenda{
+    flex: 4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.itemLeyenda{
+    display: flex;
+    font-size: 0.825rem;
+    align-items: center;
+}
+
+.bolita1{
+    height: 0.5rem;
+    width: 0.5rem;
+    background-color: #212394 ;
+    place-self: start end;
+    margin: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.bolita2{
+    height: 0.5rem;
+    width: 0.5rem;
+    background-color: #5159c7;
+    place-self: start end;
+    margin: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.bolita3{
+    height: 0.5rem;
+    width: 0.5rem;
+    background-color: #858bc7  ;
+    place-self: start end;
+    margin: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+
+.calendar{
+    font-size: 0.825rem;
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+    background-color: var(--bg);
+    padding: 0.825rem;
+    border-radius: 0.5rem;
+}
+.barGraphic{
+    height: 22rem;
+}

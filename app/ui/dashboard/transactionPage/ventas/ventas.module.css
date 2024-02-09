@@ -1,0 +1,68 @@
+.container{
+    background-color: var(--bgSoft);
+    border-radius: 0.825rem;
+    height: 20rem;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.825rem;
+}
+
+.tituloVentas{
+    display: flex;
+    gap: 0.25rem;
+    color: var(--textSoft);
+    align-items: center;    
+}
+
+.tituloVentas h2{
+    font-size: 0.825rem;
+    font-weight: 500;
+}
+
+.subtitulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ganancias{
+    display: flex;
+    gap: 0.825rem;
+    align-items: center;
+}
+
+.ganancias p{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.aumentoPositivo{
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+    padding: 0.1rem;
+    border-radius: 0.25rem;
+    border: solid #0763139d 0.1px;
+    color: #2fce64d8;
+    background-color: rgba(16, 100, 8, 0.459);
+    height: fit-content;
+}
+
+.aumentoPositivo p{
+    font-size: 0.7rem;
+}
+
+.calendarContainer{
+    font-size: 0.825rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    background-color: var(--bg);
+    padding: 0.825rem;
+    border-radius: 0.5rem;
+}
+
+.graficoVentas{
+    flex: 1;
+}
